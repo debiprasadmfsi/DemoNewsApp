@@ -1,0 +1,2 @@
+export const TOP_HEAD_LINES = "https://gnews.io/api/v4/top-headlines?category=%s1&lang=%s2&apikey=b24fbfce8e935da19c595e45c4e7a800";
+export const NEWS_SEARCH = "https://gnews.io/api/v4/search?q=[%query%]&category=%s1&in=title&lang=%s2&country=%s3&apikey=b24fbfce8e935da19c595e45c4e7a800";
