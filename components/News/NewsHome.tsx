@@ -1,5 +1,5 @@
 import ActionCard from "../UI/ActionCard";
-import { uuid } from "uuidv4";
+import { v4 as uuidv4 } from "uuid";
 import { useAppSelector } from "@/store/state";
 import NewsTitle from "./NewsTitle";
 import NewsTabs from "./NewsTabs";
@@ -15,7 +15,7 @@ const NewsHome = () => {
           <div className="w-[60%] mx-auto rounded-md shadow-lg p-2">
             {articles &&
               articles.map((article, i) => (
-                <ActionCard key={uuid()} data={article} />
+                <ActionCard key={uuidv4()} data={article} />
               ))}
           </div>
         </div>

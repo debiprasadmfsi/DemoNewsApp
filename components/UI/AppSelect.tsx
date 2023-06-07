@@ -1,6 +1,6 @@
 import { AppSelectProps } from "@/models/app";
 import { FormControl, MenuItem, Select, SelectChangeEvent } from "@mui/material";
-import { uuid } from "uuidv4";
+import { v4 as uuid } from "uuid";
 
 const AppSelect = ({list, selected, selectionChange}: AppSelectProps) => {
  
