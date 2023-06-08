@@ -1,0 +1,1 @@
+export const weatherDataMock =  {data: [{city_name: 'test', temp: 16}]}

@@ -26,7 +26,7 @@ const SettingsDetails = () => {
       try {
         const settings = await axios.post("/api/settings", appSettings);
       } catch (err) {
-        console.log(err);
+        //console.log(err);
       }
     }
     updateSettings();

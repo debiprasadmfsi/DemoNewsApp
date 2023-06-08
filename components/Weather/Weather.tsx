@@ -20,7 +20,6 @@ const Weather = () => {
       options.params  = position
       try {
         const response = await axios.request(options);
-        console.log(response.data)
         setLocation(response?.data?.data[0]?.city_name);
         setTemperasur(response?.data?.data[0]?.temp)
       } catch (error) {

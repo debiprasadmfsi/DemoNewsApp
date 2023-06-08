@@ -86,6 +86,7 @@ const NewsSearch = () => {
         }}
         renderInput={(params) => (
           <TextField
+          data-testid='auto-complete-input'
             {...params}
             placeholder="Search for author, title & source"
             onChange={(event) => {

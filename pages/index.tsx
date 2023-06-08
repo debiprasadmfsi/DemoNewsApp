@@ -25,10 +25,10 @@ export default function Home(props: AppResponse) {
 
   return (
     <Fragment>
-      <Header>
+      <Header data-testid="header">
         <NewsHeader />
       </Header>
-      <NewsHome />
+      <NewsHome data-testid="home"/>
     </Fragment>
   );
 }

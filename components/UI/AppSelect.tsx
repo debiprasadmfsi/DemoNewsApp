@@ -11,6 +11,7 @@ const AppSelect = ({list, selected, selectionChange}: AppSelectProps) => {
   return (
     <FormControl className="ml-auto w-1/2" variant="standard">
       <Select
+        data-testid="app-select"
         labelId="demo-simple-select-label"
         id="demo-simple-select"
         value={selected}

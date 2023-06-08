@@ -1,3 +1,5 @@
+
+
 export const TopHeadlines = {
   totalArticles: 54904,
   articles: [
@@ -12,6 +14,8 @@ export const TopHeadlines = {
       image:
         "https://m-cdn.phonearena.com/images/article/142800-wide-two_1200/Googles-Pixel-7-and-7-Pros-design-gets-revealed-even-more-with-fresh-crisp-renders.jpg",
       publishedAt: "2022-09-28T08:14:24Z",
+      author: 'test',
+      uuid: '1',
       source: {
         name: "PhoneArena",
         url: "https://www.phonearena.com",

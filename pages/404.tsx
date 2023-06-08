@@ -2,7 +2,7 @@ import SentimentVeryDissatisfiedIcon from "@mui/icons-material/SentimentVeryDiss
 const PageNotFound = () => {
   return (
     <div className="bg-gray-100 h-screen justify-center">
-      <center className="">
+      <center>
         <div>
             <SentimentVeryDissatisfiedIcon className="text-gray-500 text-9xl" />
         </div>

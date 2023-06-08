@@ -13,8 +13,13 @@ module.exports = {
     "!<rootDir>/models/**",
     "!<rootDir>/utils/**",
     "!<rootDir>/mock/**",
-    "!<rootDir>/constants/**"
+    "!<rootDir>/constants/**",
+    "!<rootDir>/pages/_*.tsx",
+    "!<rootDir>/pages/404.tsx",
+    "!<rootDir>/pages/api/**",
+    "!<rootDir>/store/**",
   ],
+  coverageReporters: ["html"],
   moduleNameMapper: {
     // Handle CSS imports (with CSS modules)
     // https://jestjs.io/docs/webpack#mocking-css-modules

@@ -7,7 +7,7 @@ import NewsTabs from "./NewsTabs";
 const NewsHome = () => {
   const articles = useAppSelector((state) => state.news.articles);
   return (
-    <div className="w-full">
+    <div className="w-full" data-testid="news-home">
       <NewsTabs />
       <div className="w-full overflow-y-auto">
         <NewsTitle />

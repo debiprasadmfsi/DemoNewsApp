@@ -9,9 +9,9 @@ export interface Article {
     description: string;
     url: string;
     image: string;
-    publishedAt: Date;
     content: string;
     uuid:string;
+    publishedAt: string;
 }
 
 export interface HeadLinesResponse {
